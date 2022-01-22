@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="app/css/style.css" />
+    <title>Tai, kas nepabosta</title>
+  </head>
+  <body>
+    <h1>Likes</h1>
+    <div class="tabs">
+      <button onmouseover="changeTab(event, 'pirmas')">Pirmas</button>
+      <button onmouseover="changeTab(event, 'antras')">Antras</button>
+      <button onmouseover="changeTab(event, 'trečias')">Trečias</button>
+      <button onmouseover="changeTab(event, 'ketvirtas')">Čia negalima</button>
+    </div>
+
+    <div id="pirmas" class="tab">
+      <h1>Muzika</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/U3SPkP4y-rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p></p>
+    </div>
+
+    <div id="antras" class="tab">
+      <h1>Keršytojai</h1>
+      <img src="https://static.wikia.nocookie.net/marveldatabase/images/b/b8/Avengers_Endgame_poster_035_Textless.jpg/revision/latest?cb=20190717172833" alt="" width="400"/>
+    </div>
+
+    <div id="trečias" class="tab">
+      <h1>Kava</h1>
+      <img
+      src="https://images.unsplash.com/photo-1484386519827-d5e217f9d8f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" width="400"/>
+    </div>
+
+    <div id="ketvirtas" class="tab">
+      <h1>Vienas namuose :)</h1>
+      <img src="https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="" width="400"/>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
